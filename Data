@@ -7,3 +7,6 @@ Severity codes are as follows:
 3: Mild Probability — Chance of Serious Injury
 4: High Probability — Chance of Fatality
 Furthermore, because of the existence of null values in some records, the data needs to be preprocessed before any further processing.
+The dataset in the original form is not ready for data analysis. In order to prepare the data, first, we need to drop the non-relevant columns. In addition, most of the features are of object data types that need to be converted into numerical data types.
+After analyzing the data set, I have decided to focus on only four features, severity, weather conditions, road conditions, and light conditions, among others.
+To get a good understanding of the dataset, I have checked different values in the features. 
